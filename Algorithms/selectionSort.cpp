@@ -13,10 +13,8 @@ void selectionSort(int a[], int n){
         }
         swap(a[i], a[smallest]);
         }
-        
+
     }
-    
-}
 
 int main(){
     int n;
