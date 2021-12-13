@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
+
 void bubbleSort(int a[], int n){
+  // outer loop is running n-1 times
+  // inner loop is running n-2 times
+  // Time complexity ; O(n^2)
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n-1; j++) {
      if(a[j] > a[j+1]) swap(a[j], a[j+1]);
